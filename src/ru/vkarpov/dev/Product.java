@@ -1,17 +1,17 @@
 package ru.vkarpov.dev;
 
-public class Lines{
+public class Product{
 
     private String id;
     private String name;
     private String price;
     private String quantity;
     public static final int NUMBER_CHAR_ID = 8;
-    private static final int NUMBER_CHAR_NAME = 30;
-    private static final int NUMBER_CHAR_PRICE = 8;
-    private static final int NUMBER_CHAR_QUANTITY = 4;
+    public static final int NUMBER_CHAR_NAME = 30;
+    public static final int NUMBER_CHAR_PRICE = 8;
+    public static final int NUMBER_CHAR_QUANTITY = 4;
 
-    public Lines(String id, String name, String price, String quantity){
+    public Product(String id, String name, String price, String quantity){
 
         this.id = id;
         this.name = name;
